@@ -1,3 +1,12 @@
 {
-    "python.pythonPath": "${workspaceRoot}/virtualenv/bin/python3.5"
+    // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+    "python.pythonPath": "${workspaceRoot}/virtualenv/bin/python3.5",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "*_test.py"
+    ],
+    "python.unitTest.unittestEnabled": true
 }
