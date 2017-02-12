@@ -67,9 +67,9 @@ confidence=
 # --disable=W"
 
 #C0111 Missing docstring
+#W0702 No exception type(s) specified
 
-disable=backtick,old-ne-operator,dict-iter-method,unicode-builtin,coerce-method,unpacking-in-except,no-absolute-import,using-cmp-argument,raising-string,metaclass-assignment,unichr-builtin,old-raise-syntax,raw_input-builtin,input-builtin,cmp-builtin,dict-view-method,standarderror-builtin,buffer-builtin,parameter-unpacking,long-builtin,old-division,long-suffix,setslice-method,filter-builtin-not-iterating,next-method-called,getslice-method,apply-builtin,coerce-builtin,indexing-exception,old-octal-literal,zip-builtin-not-iterating,delslice-method,cmp-method,file-builtin,nonzero-method,hex-method,basestring-builtin,useless-suppression,xrange-builtin,map-builtin-not-iterating,reload-builtin,suppressed-message,reduce-builtin,round-builtin,import-star-module-level,oct-method,execfile-builtin,intern-builtin,print-statement,range-builtin-not-iterating,C0111
-
+disable=backtick,old-ne-operator,dict-iter-method,unicode-builtin,coerce-method,unpacking-in-except,no-absolute-import,using-cmp-argument,raising-string,metaclass-assignment,unichr-builtin,old-raise-syntax,raw_input-builtin,input-builtin,cmp-builtin,dict-view-method,standarderror-builtin,buffer-builtin,parameter-unpacking,long-builtin,old-division,long-suffix,setslice-method,filter-builtin-not-iterating,next-method-called,getslice-method,apply-builtin,coerce-builtin,indexing-exception,old-octal-literal,zip-builtin-not-iterating,delslice-method,cmp-method,file-builtin,nonzero-method,hex-method,basestring-builtin,useless-suppression,xrange-builtin,map-builtin-not-iterating,reload-builtin,suppressed-message,reduce-builtin,round-builtin,import-star-module-level,oct-method,execfile-builtin,intern-builtin,print-statement,range-builtin-not-iterating,C0111,W0702,E0401
 
 [REPORTS]
 

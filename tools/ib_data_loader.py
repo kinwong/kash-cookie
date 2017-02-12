@@ -1,8 +1,13 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 import csv
 import logging
 import time
 from datetime import date, timedelta
 
+import sys
 import os
 from swigibpy import Contract
 
@@ -130,6 +135,6 @@ def data_date_range():
     return filter(lambda d: d.weekday() not in [5, 6],
                   core.datatools.date_range(DATA_END, DATA_START))
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    historical_from_ib("../market_data/hk", data_date_range())
+    historical_from_ib("../data-market/hk", data_date_range())

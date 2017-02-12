@@ -1,4 +1,8 @@
 {
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/__pycache__": true
+    },
     // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
     "python.pythonPath": "${workspaceRoot}/virtualenv/bin/python3.5",
     "python.unitTest.unittestArgs": [
